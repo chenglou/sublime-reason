@@ -49,7 +49,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\'([^\'\\]|\\(x\h{2}|u\{\h{1,6}\}|.))\'</string>
+			<string>\'([^\'\\]|\\(x[0-9A-Fa-f]{2}|u\{[0-9A-Fa-f]{1,6}\}|.))\'</string>
 			<key>name</key>
 			<string>string.quoted.single.source.reason</string>
 		</dict>
@@ -373,7 +373,7 @@
 		<key>reason_escaped_character</key>
 		<dict>
 			<key>match</key>
-			<string>\\(x\h{2}|u\{\h{1,6}\}|.)</string>
+			<string>\\(x[0-9A-Fa-f]{2}|u\{[0-9A-Fa-f]{1,6}\}|.)</string>
 			<key>name</key>
 			<string>constant.character.escape.source.reason</string>
 		</dict>

@@ -14,7 +14,7 @@
     {"include": "#reason_raw_string"},
     {
       "name": "string.quoted.single.source.reason",
-      "match": "\\'([^\\'\\\\]|\\\\(x\\h{2}|u\\{\\h{1,6}\\}|.))\\'"
+      "match": "\\'([^\\'\\\\]|\\\\(x[0-9A-Fa-f]{2}|u\\{[0-9A-Fa-f]{1,6}\\}|.))\\'"
     },
     {"name": "meta.function.source.reason",
      "match": "\\b(fun)\\s+([a-zA-Z_][a-zA-Z0-9_]?[\\w\\:,+ \\'<>?]*)\\s*(?:\\()",
@@ -147,7 +147,7 @@
   "repository": {
     "reason_escaped_character": {
       "name": "constant.character.escape.source.reason",
-      "match": "\\\\(x\\h{2}|u\\{\\h{1,6}\\}|.)"
+      "match": "\\\\(x[0-9A-Fa-f]{2}|u\\{[0-9A-Fa-f]{1,6}\\}|.)"
     },
     "reason_string": {
       "name": "string.quoted.double.source.reason",
