@@ -15,8 +15,11 @@ To install this plugin:
 
 Other prerequisites:
 
+- Install the [global binaries](https://reasonml.github.io/docs/en/global-installation.html)
 - Install [LSP](https://github.com/tomv564/LSP)
 - Install [ocaml-language-server](https://github.com/freebroccolo/ocaml-language-server) through `npm install -g ocaml-language-server`
+
+You might have to restart sublime after installing everything.
 
 ## Configuration
 
