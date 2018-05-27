@@ -18,6 +18,9 @@ Both installations instructions are below.
 
 The other 90% of Reason's editor experience (intelligent autocompletion, type hint, formatting, jump-to-definition, etc.) is provided by ocaml-language-server (a code analysis backend shared by all editors).
 
+> **Heads Up!**
+> `nodenv` is known to cause various issues so make sure to install an npm package with the system version of Node
+
 - Install the [global binaries](https://reasonml.github.io/docs/en/global-installation.html).
 - Install [ocaml-language-server](https://github.com/freebroccolo/ocaml-language-server) itself through `npm install -g ocaml-language-server`.
 - Install [LSP](https://github.com/tomv564/LSP), the sublime text plugin that communicates with ocaml-language-server.
