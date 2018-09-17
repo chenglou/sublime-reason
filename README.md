@@ -11,7 +11,7 @@ Language-server provides all the others (autocompletion, type hint, jump-to-defi
 The plugin's [published on Package Control](https://packagecontrol.io/packages/Reason).
 
 - Go to Command Palette (`cmd-shift-p`) -> Package Control: Install Package.
-- Choose sublime-reason.
+- Choose Reason.
 
 ## Language Server Installation
 
