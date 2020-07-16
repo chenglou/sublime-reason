@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>source.reason</string>
+	<string>source.reason,source.bucklescript</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
